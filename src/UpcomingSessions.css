@@ -1,0 +1,50 @@
+.upcoming-sessions-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(197, 222, 214);
+  }
+  
+  .no-events-message {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .upcoming-events-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .heading1{
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+  }
+  
+  .event-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .event-item h3 {
+    margin: 0;
+  }
+  
+  .event-item p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 600px) {
+    .upcoming-sessions-container {
+      padding: 0 10px;
+    }
+  
+    .event-item {
+      padding: 5px;
+    }
+  }
+  
