@@ -1,0 +1,40 @@
+.landing-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .login-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .login {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  .admin-login {
+    background-color: #4285F4;
+    color: #fff;
+  }
+  
+  .volunteer-login {
+    background-color: #FFC107;
+    color: #000;
+  }
+  
