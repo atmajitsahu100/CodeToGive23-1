@@ -15,7 +15,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
+          <NavLink to="/">
           <Brand />
+          </NavLink>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <Hamburger />
